@@ -28,6 +28,6 @@ I am learning Linux fundamentals to prepare for AWS cloud security work. These s
   Bsc(Hons)IT, Techspire College
   Nepal | Building global remote skills
 
-##License
+License
 
 Open source. Free to use and modify.
