@@ -1,0 +1,18 @@
+=== DAY 1 ===
+
+ls -la = list all files with details
+chmod +x = make file executable
+./scripts.sh = run script in current folder
+
+
+=== DAY 2 ===
+
+chmod 755 = owner full control , other read+execute
+chmod 644 = owner read+write, others read only
+sudo useradd -m = create user with home folder
+ssh user@server -p port = connect to remote server
+
+
+
+Bandit Level 0 password: 6y2kwnwK6grgvwvpvLaa2T1cpFEKOhNR
+ssh bandit0@bandit.labs.overthewire.org -p 2220
