@@ -12,7 +12,16 @@ chmod 644 = owner read+write, others read only
 sudo useradd -m = create user with home folder
 ssh user@server -p port = connect to remote server
 
-
-
 Bandit Level 0 password: 6y2kwnwK6grgvwvpvLaa2T1cpFEKOhNR
 ssh bandit0@bandit.labs.overthewire.org -p 2220
+
+
+=== DAY 3 ===
+ 
+rm filename = delete file forever (no recycle bin)
+cat /etc/passwd | grep username = check if user exists
+ssh bandit1@bandit.labs.overthewire.org -p 2220 = Level 1 login
+cat ./- = read a file name "-" (dash is speical)
+exit = logout from remote server
+Bandit level 1 --> 2 password: PK8fYLZg2hnHSz83plBL1iEPKdD3QToB
+
