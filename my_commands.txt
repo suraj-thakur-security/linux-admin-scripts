@@ -25,3 +25,16 @@ cat ./- = read a file name "-" (dash is speical)
 exit = logout from remote server
 Bandit level 1 --> 2 password: PK8fYLZg2hnHSz83plBL1iEPKdD3QToB
 
+
+=== Day 4 ===
+
+cat "file name" = read file with space in name
+ls -la = show hidden files (files starting with .)
+file ./* = check what type each file is
+find -type f -size 1033c ! -executable = Find file by size and type
+cd foldername = go inside the folder
+
+Bandit level 2 --> 3 password: 7ZZ2LFrykP2zEyvBl4m3clcL7tGYJPME
+Bandit level 3 --> 4 password: xzTXq1rDJQVVAzdv5cHq1TQytTWufAMq
+Bandit level 4 --> 5 password: 6C7h9GD8M6ai5nr7wo1RonrzFjj9yIrG
+Bandit level 5 --> 6 password: pXa26xhMWaC2SvDotA4r9EgZkulOeSBW 
