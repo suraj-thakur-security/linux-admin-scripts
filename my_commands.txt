@@ -38,3 +38,15 @@ Bandit level 2 --> 3 password: 7ZZ2LFrykP2zEyvBl4m3clcL7tGYJPME
 Bandit level 3 --> 4 password: xzTXq1rDJQVVAzdv5cHq1TQytTWufAMq
 Bandit level 4 --> 5 password: 6C7h9GD8M6ai5nr7wo1RonrzFjj9yIrG
 Bandit level 5 --> 6 password: pXa26xhMWaC2SvDotA4r9EgZkulOeSBW 
+
+
+
+=== Day 5 ===
+
+find / -user name -group name -size 33c 2>/dev/null = search entire server
+2>/dev/null = hide error messages ( send them to black hole)
+useradd -m -G groupname username = create user with home + group
+echo "user:pass" | chpasswd = set password automatically 
+for x in a a b c; do. . . done = loop through items 
+
+Bandit Level 6 --> 6 password: Bmnnvf82KzQlfxgAI2d1zYbr1u9pr3E3
