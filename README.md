@@ -8,12 +8,12 @@ I am learning Linux fundamentals to prepare for AWS cloud security work. These s
 ## Scripts 
 
 |  script  |  What It Does  |  Status  |
-| `create_users.sh` | Bulk user creation with groups |🚧 In Progress |
+| `create_users.sh` | Bulk user creation with groups | ✅ Complete |
 | `system_health.sh` | Disk, memory, CPU monitoring | 🚧 In Progress |
 | `log_parser.sh` | Parse auth logs for failed logins | 🚧 In Progress |
 
 ## Environment 
-- OS: Kali LInux. ( VirtualBox VM )
+- OS: Kali Linux ( VirtualBox VM )
 - Shell: Bash
 - Tested on: Debian-based systems
 
@@ -21,6 +21,7 @@ I am learning Linux fundamentals to prepare for AWS cloud security work. These s
    ```bash
   chmod +x script_name.sh
   ./scripts_name.sh
+  ```  
 
  ## Author
  
