@@ -8,9 +8,9 @@ I am learning Linux fundamentals to prepare for AWS cloud security work. These s
 ## Scripts 
 
 |  script  |  What It Does  |  Status  |
-| 'create_users.sh' | Bulk user creation with groups |🚧 In Progress |
-| 'system_health.sh' | Disk, memory, CPU monitoring | 🚧 In Progress |
-| 'log_parser.sh' | Parse auth logs for failed logins | 🚧 In Progress |
+| `create_users.sh` | Bulk user creation with groups |🚧 In Progress |
+| `system_health.sh` | Disk, memory, CPU monitoring | 🚧 In Progress |
+| `log_parser.sh` | Parse auth logs for failed logins | 🚧 In Progress |
 
 ## Environment 
 - OS: Kali LInux ( VirtualBox VM )
@@ -18,7 +18,7 @@ I am learning Linux fundamentals to prepare for AWS cloud security work. These s
 - Tested on: Debian-based systems
 
   ## How to Run
-  '''bash
+   ```bash
   chmod +x script_name.sh
   ./scripts_name.sh
 
