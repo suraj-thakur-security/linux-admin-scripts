@@ -13,7 +13,7 @@ I am learning Linux fundamentals to prepare for AWS cloud security work. These s
 | `log_parser.sh` | Parse auth logs for failed logins | 🚧 In Progress |
 
 ## Environment 
-- OS: Kali LInux ( VirtualBox VM )
+- OS: Kali LInux. ( VirtualBox VM )
 - Shell: Bash
 - Tested on: Debian-based systems
 
