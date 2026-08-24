@@ -1,7 +1,7 @@
  
  # Learning Log
 
- ## Day 1 - AUgust 19, 2026
+ ## Day 1 - August 19, 2026
  - Installed Kali Linux in virtualBox for the first time.
  - Practiced 20 basic Linux commands:  `ls `,  `cd `,  `mkdir `,  `pwd `,  `chmod `,  `cat ` etc.
  - Wrote my first bash script  `hello_linux.sh ` and learn that  `chmod +x ` gives permission to run scripts.
