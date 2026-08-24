@@ -28,8 +28,8 @@
 - STRUGGLE : Kept typing wrong filenames. Learned the most important hscking skill: read the screen exactly do not guess.
 
 
-  ## Day 5 - August 23, 2026
-  - Completed Bandit Level 6: searched the entire server with `find / -user bandit7 -group bandit6 -size 33c 2>/dev/null`.
-  - Learned `2>/dev/null` hides "permission denied" error messages.
-  - Wrote `create_users.sh` using a `for` loop to automate user creation.
-  - BUG FIX : Had 3 syntax errors - missing space in `if` statement, typed `f1` instead of `fi` and forget `$` in `$user`. Fixed all three.
+ ## Day 5 - August 23, 2026
+ - Completed Bandit Level 6: searched the entire server with `find / -user bandit7 -group bandit6 -size 33c 2>/dev/null`.
+ - Learned `2>/dev/null` hides "permission denied" error messages.
+ - Wrote `create_users.sh` using a `for` loop to automate user creation.
+ - BUG FIX : Had 3 syntax errors - missing space in `if` statement, typed `f1` instead of `fi` and forget `$` in `$user`. Fixed all three.
