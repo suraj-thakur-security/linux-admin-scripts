@@ -1,4 +1,4 @@
- `See [LOG.md](LOG.md) for my daily learning journal.`
+ See [LOG.md](LOG.md) for my daily learning journal.
 
 
 # Linux Admin Scripts 
@@ -11,6 +11,7 @@ I am learning Linux fundamentals to prepare for AWS cloud security work. These s
 ## Scripts 
 
 |  script  |  What It Does  |  Status  |
+|---|---|---|
 | `create_users.sh` | Bulk user creation with groups | ✅ Complete |
 | `system_health.sh` | Disk, memory, CPU monitoring | 🚧 In Progress |
 | `log_parser.sh` | Parse auth logs for failed logins | 🚧 In Progress |
@@ -23,7 +24,7 @@ I am learning Linux fundamentals to prepare for AWS cloud security work. These s
   ## How to Run
    ```bash
   chmod +x script_name.sh
-  ./scripts_name.sh
+  ./script_name.sh
   ```  
 
  ## Author
