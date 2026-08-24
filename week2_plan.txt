@@ -1,0 +1,20 @@
+ 
+WEEK 2 PLAN - August 25-31, 2026
+
+TARGETS: 
+
+[  ] Bandit Levels 7, 8, 9, 10
+[  ] Script: system_health.sh(check disk, memory, processor)
+[  ] Learn: cron jobs (schedule scripts to run automatically)
+[  ] Github: 50+ total commits by Sunday 
+
+
+DAILY BLOCKS:
+
+Tuesday (Day 7)     : Bandit 7 + system_health.sh start
+Wednesday (Day 8)   : Bandit 8 + system_heakth.sh finish
+Thursday (Day 9)    : Bandit 9+ cron jobs 
+Friday (Day 10)     : Bandit 10 + Week 2 review
+Saturday (Day 11)   : Catch up / polish
+Sunday (Day 12)     : Rest or light review
+

@@ -1,52 +1,59 @@
-=== DAY 1 ===
-
-ls -la = list all files with details
-chmod +x = make file executable
-./scripts.sh = run script in current folder
+  === SURAJ'S LINUX CHEAT SHEET ===
+created: 2026-Aug-19 | Updated: 2026-Aug-24
 
 
-=== DAY 2 ===
+-- BANDIT PASSWORD ---
 
-chmod 755 = owner full control , other read+execute
-chmod 644 = owner read+write, others read only
-sudo useradd -m = create user with home folder
-ssh user@server -p port = connect to remote server
-
-Bandit Level 0 password: 6y2kwnwK6grgvwvpvLaa2T1cpFEKOhNR
-ssh bandit0@bandit.labs.overthewire.org -p 2220
-
-
-=== DAY 3 ===
- 
-rm filename = delete file forever (no recycle bin)
-cat /etc/passwd | grep username = check if user exists
-ssh bandit1@bandit.labs.overthewire.org -p 2220 = Level 1 login
-cat ./- = read a file name "-" (dash is speical)
-exit = logout from remote server
-Bandit level 1 --> 2 password: PK8fYLZg2hnHSz83plBL1iEPKdD3QToB
-
-
-=== Day 4 ===
-
-cat "file name" = read file with space in name
-ls -la = show hidden files (files starting with .)
-file ./* = check what type each file is
-find -type f -size 1033c ! -executable = Find file by size and type
-cd foldername = go inside the folder
-
-Bandit level 2 --> 3 password: 7ZZ2LFrykP2zEyvBl4m3clcL7tGYJPME
-Bandit level 3 --> 4 password: xzTXq1rDJQVVAzdv5cHq1TQytTWufAMq
-Bandit level 4 --> 5 password: 6C7h9GD8M6ai5nr7wo1RonrzFjj9yIrG
-Bandit level 5 --> 6 password: pXa26xhMWaC2SvDotA4r9EgZkulOeSBW 
+Level 0 --> 1: bandit0
+Level 1 --> 2: 6y2kwnwK6grgvwvpvLaa2T1cpFEKOhNR
+Level 2 --> 3:  6y2kwnwK6grgvwvpvLaa2T1cpFEKOhNR
+Level 2 --> 3: 7ZZ2LFrykP2zEyvBl4m3clcL7tGYJPME
+Level 3 --> 4: xzTXq1rDJQVVAzdv5cHq1TQytTWufAMq
+Level 4 --> 5: 6C7h9GD8M6ai5nr7wo1RonrzFjj9yIrG
+Level 5 --> 6: pXa26xhMWaC2SvDotA4r9EgZkulOeSBW
+Level 6 --> 7: Bmnnvf82KzQlfxgAI2d1zYbr1u9pr3E3
 
 
 
-=== Day 5 ===
+----- CORE COMMANDS -----
 
-find / -user name -group name -size 33c 2>/dev/null = search entire server
-2>/dev/null = hide error messages ( send them to black hole)
-useradd -m -G groupname username = create user with home + group
-echo "user:pass" | chpasswd = set password automatically 
-for x in a a b c; do. . . done = loop through items 
+ls -la                = List ll files with details 
+cd folder             = change directory 
+pwd                   = show current location
+mkdir name            = make new folder 
+chmod =x file         = make scripts ececutable
+chmod 755 file        = owner full control, others can run
+chmod 644 file        = owner read/write, others can run
+rm file               = delete file forever  (NO recycle bin)
+cat file              = read file contents
+./script.sh           = run script in current folder
+sudo comamnd          = run as administator
 
-Bandit Level 6 --> 6 password: Bmnnvf82KzQlfxgAI2d1zYbr1u9pr3E3
+
+
+--- USER MANAGMENT ---
+
+sudo useradd -m username         = create user with home folder
+sudo passwd username             = set user password
+sudo groupadd groupname          = create group 
+sudo usermod -aG group user      = add user to group 
+
+
+--- REMOTE ACCESS ---
+
+ssh user@server -p port   = connect to remote server
+exit                      = logout from remote server 
+
+
+--- SEARCH ---
+
+find / -type f -size 33c 2>/dev/null      = search entire server by size
+file ./*                                  = check what type each file is 
+cat /etc/passwd | grep user               = check if user exists
+
+
+---SCRIPTS---
+
+#!/bin/bash                         = shebang  (tells Linux this is a script)
+if [ "$(id -u)" -ne 0 ]; then       = check if running as root
+for x in a b c; do . . . done       = loop through items  
