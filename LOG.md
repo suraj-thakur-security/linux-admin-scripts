@@ -1,4 +1,4 @@
- ` ` ` markdown
+ 
  # Learning Log
 
  ## Day 1 - AUgust 19, 2026
