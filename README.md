@@ -1,3 +1,6 @@
+ `See [LOG.md](LOG.md) for my daily learning journal.`
+
+
 # Linux Admin Scripts 
 
 A collection of bash scripts for linux system administration and security tasks. Built as part of my journey to become a Cloud Security Engineer. 
