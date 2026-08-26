@@ -49,3 +49,11 @@
 - Started `system_health.sh` to check disk (`df -h`), memory (`free -h`), and top processes (`ps aux`).
 - Learned `$(command)` inserts the result of a command into text (like `$(date)` showing today's date).
 - **Lesson:** `head -6` limits output to 6 lines, making reports clean and readable.
+
+
+## Day 8 - August 26, 2026
+- Completed Bandit Level 8 using `sort data.txt | uniq -u` to find the only unique line.
+- Learned `sort` arranges lines alphabetically and `uniq -u` shows lines that appear exactly once.
+- Upgraded `system_health.sh` with a disk usage alert using `if [ "$DISK_USAGE" -gt 90 ]`.
+- Learned `$(command)` saves command output into a variable for later use.
+- **Lesson:** Chaining commands (`df | tail | awk | sed`) lets you extract exact data from messy output.
