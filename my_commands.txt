@@ -73,3 +73,22 @@ $(command) = run command and insert result
 
 
 Bandit Level 7 --> 8 password: VR1ljMayciFxbnUokuQmJFw6QC9VKtub
+
+
+
+
+
+    === Day 8 ===
+
+sort file = arrange lines alphabetically 
+uniq -u = show only lines that appear exactly once
+sort file | uniq -u = find the only ubique line
+$(hostname) = get computer name 
+variable=$(command) = save command result into variable 
+if ["$var" -gt 90 ]; then = check if number is greater than
+-gt = greater than
+-lt = less than
+fi = close if statement
+
+
+Bandit Level 8 --> 9 password: EjmOSvuAu7sGAHqHVcBDPirRe9T03kxl 
