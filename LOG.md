@@ -57,3 +57,11 @@
 - Upgraded `system_health.sh` with a disk usage alert using `if [ "$DISK_USAGE" -gt 90 ]`.
 - Learned `$(command)` saves command output into a variable for later use.
 - **Lesson:** Chaining commands (`df | tail | awk | sed`) lets you extract exact data from messy output.
+
+
+## Day 9 - August 27, 2026
+- Completed Bandit level 9 using `strings data.txt | grep "=="` to find a password hidden in the binary garbage.
+- Learned `strings` extracts human -readable text from any file, even if it is mostly machine code.
+- Setup my first cron job using `crontab -e` to run `system_health.sh` automatically.
+- Tested with `* * * * *` (every minute) to see proof in `helth.log` then changed to `0 9 * * *` (daily at 9 AM).
+- **Lesson:** Automation means the computer works while you sleep. A sysadmin schedules tasks, he does not run them manually everyday. 
