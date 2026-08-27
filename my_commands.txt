@@ -92,3 +92,20 @@ fi = close if statement
 
 
 Bandit Level 8 --> 9 password: EjmOSvuAu7sGAHqHVcBDPirRe9T03kxl 
+
+
+
+
+
+  === Day 9 ===
+
+strings file = extract human-readable text from any file ( even binary)
+strings file | grep "word" = find the readable text containing "word"
+crontab -e = edit the schedule of automatic tasks
+* * * * * command = run every minute
+0 9 * * * command = run everyday at 9:00 AM
+>> file = append output to file ( add to end)
+2>&1 = same error to the same log fi;e 
+
+
+Bandit Level 9 --> 10 password: B0s2khmbT9u0geKuOoVGW3JZKhndE3BG
