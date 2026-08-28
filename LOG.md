@@ -64,4 +64,13 @@
 - Learned `strings` extracts human -readable text from any file, even if it is mostly machine code.
 - Setup my first cron job using `crontab -e` to run `system_health.sh` automatically.
 - Tested with `* * * * *` (every minute) to see proof in `helth.log` then changed to `0 9 * * *` (daily at 9 AM).
-- **Lesson:** Automation means the computer works while you sleep. A sysadmin schedules tasks, he does not run them manually everyday. 
+- **Lesson:** Automation means the computer works while you sleep. A sysadmin schedules tasks, he does not run them manually everyday.
+
+
+## Day 10 - August 28, 2026
+- Completed Bandit Level 10 using `base64 -d data.txt` to decode hidden password.
+- Learned base64 encoding is how text is disguised as random characters.
+- Reviewed all 3 scripts from week 2 and verified they run correctly.
+- Counted Github commits and checked LOG.md for missing entries.
+- Created Week 3 plan focusing on college Networking synergy with Wireshark and Nmap.
+- **Lesson:** Review is not wasted time. It is when scattered knowledge becomes solid skill.
