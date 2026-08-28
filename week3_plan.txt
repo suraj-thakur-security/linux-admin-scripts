@@ -1,0 +1,31 @@
+WEEK 3 PLAN - September 1-6, 2026
+
+College teaches: Networking (OSI Model , TCP/IP, Subnetting)
+Self Study: Wireshark packet capture, Nmap scans, Python sockets
+
+
+
+TARGETS:
+
+
+[ ] Bandit Level 11, 12, 13
+[ ] Repo #2: network-scanner-python ( port scanner scripts)
+[ ] Install and use Wireshark (capture home network traffic)
+[ ] Install and use Nmap (scan your router saftely)
+[ ] Python: basic socket programming (college synergy)
+[ ] Github: 75+ total commits by Sunday 
+
+
+
+DAILY BLOCKS: 
+Tuesday (Day 11)      : Bandit 11 + Wireshark install + first capture
+Wednesday (Day 12)    : Bandit 12 + Nmap install + router scan
+Thursday (Day 13)     : Bandit 13 + Python socket + script start
+Friday (Day 14)       : Repo #2 created + port scanner scripts
+Saturday (Day 15)     : Polish + catch up
+Sundat (Day 16)       : Rest or light review
+
+
+RULES: 
+- Ecery day: ! Github commit minimum 
+- Every day: LOG.md entry before closing laptop

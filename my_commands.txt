@@ -109,3 +109,17 @@ crontab -e = edit the schedule of automatic tasks
 
 
 Bandit Level 9 --> 10 password: B0s2khmbT9u0geKuOoVGW3JZKhndE3BG
+
+
+
+
+
+ === Day 10 ===
+
+base64 -d file = decode base64 hidden text back to normal
+base64 file = encode nornal text into base64 ( hiding it)
+Week 2 review: verify all scripts exists and run
+Week 3 = college Networking + Wireshark + Nmap + Python sockets
+
+
+Bandit Level 10 --> 11 password: pYfOY6HwUsDj5rL9UvyhU7MCmv8vN5Ro
