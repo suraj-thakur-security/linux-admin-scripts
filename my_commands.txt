@@ -17,11 +17,11 @@ Level 6 --> 7: Bmnnvf82KzQlfxgAI2d1zYbr1u9pr3E3
 
 ----- CORE COMMANDS -----
 
-ls -la                = List ll files with details 
+ls -la                = List all files with details 
 cd folder             = change directory 
 pwd                   = show current location
 mkdir name            = make new folder 
-chmod =x file         = make scripts ececutable
+chmod +x file         = make scripts ececutable
 chmod 755 file        = owner full control, others can run
 chmod 644 file        = owner read/write, others can run
 rm file               = delete file forever  (NO recycle bin)
@@ -123,3 +123,20 @@ Week 3 = college Networking + Wireshark + Nmap + Python sockets
 
 
 Bandit Level 10 --> 11 password: pYfOY6HwUsDj5rL9UvyhU7MCmv8vN5Ro
+
+
+
+
+  === Day 11 ===
+
+tr "A-Za-z' 'N-ZA-Mn-za-m' = rot13 decode  (shift letters by 13)
+which program = check if a program is installed
+sudo apt install name -y = install a program automatically
+sudo wireshark & = open Wireshark in background
+eth0 = wired network connection
+wlan0 = wireless network connection
+dns = domain name system ( turns name into IP addresses)
+http = hypertext transfer protocol ( websites )
+
+
+NBandit Level 11 --> 12 password: GROozWPO8QyN0mGrjUkID0WCYkZiQxrN
