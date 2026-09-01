@@ -81,6 +81,7 @@
 - Completed Bandit Level 11 it using `tr` to decode rot13 encrypted text.
 - Learned rot13 shifts every letter by 13 places and is its own inverse.
 - Installed and opened Wireshark for the first time.
-- Captured live network traffic while visiting traffic.
+- Captured live network traffic while visiting google.com.
+- Filtered packets to show only DNS and HTTP traffic.
 - **Lesson:** Wireshark turns invisible network theory into visible data. I can touch and analyze.
 
