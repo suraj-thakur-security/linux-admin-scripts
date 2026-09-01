@@ -74,3 +74,13 @@
 - Counted Github commits and checked LOG.md for missing entries.
 - Created Week 3 plan focusing on college Networking synergy with Wireshark and Nmap.
 - **Lesson:** Review is not wasted time. It is when scattered knowledge becomes solid skill.
+
+
+## Day 11 - September 1, 2026
+- Warmed up after 3-day gap by reviewing scripts and cheat sheet.
+- Completed Bandit Level it using `tr` to decode rot13 encrypted text.
+- Learned rot13 shifts every letter by 13 places and is its own inverse.
+- Installed and opened Wireshark for the first time.
+- Captured live network traffic while visiting traffic.
+- **Lesson:** Wireshark turns invisible network theory into visible data. I can touch and analyze.
+
