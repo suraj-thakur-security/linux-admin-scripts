@@ -140,3 +140,23 @@ http = hypertext transfer protocol ( websites )
 
 
 NBandit Level 11 --> 12 password: GROozWPO8QyN0mGrjUkID0WCYkZiQxrN
+
+
+
+ === Day 12 ====
+
+xxd -r file > output = reverse hexdump baxk to bianry
+file filename = check what type of file it really is
+mv oldname newname = rename file
+gzip -d file.gz = decpmpreesed gzip
+bzip2 -d file.bz2 = decompressed bzip2
+tar xvf file.tar = extract tar archive
+xz -d file.xz = decpmpressed xz
+nmap localhost = scans your own ports
+nmap IP = scan a specific machine
+nmap -sn 192.168.1.0/24 = find all devices on network 
+ip addr = show your network address
+ip route = show your router/gateway address
+
+
+Bandit Level 12 --> 13 password: qQYQiHOBPR8zR61qxYqX45quvihF2uzk
