@@ -85,3 +85,13 @@
 - Filtered packets to show only DNS and HTTP traffic.
 - **Lesson:** Wireshark turns invisible network theory into visible data. I can touch and analyze.
 
+
+## Day 12 — September 2, 2026
+- Completed Bandit Level 12 by reversing a hexdump and decompressing multiple layers.
+- Used `xxd -r` to convert a hexdump back into binary data.
+- Learned `file` command identifies the real type of any file regardless of its name.
+- Decompressed gzip, bzip2, tar, and xz layers to reach the final password.
+- Installed Nmap and scanned my own machine with `nmap localhost`.
+- Scanned my home router and ran a ping sweep to find all devices on my network.
+- **Lesson:** Hackers hide files inside compressed layers. Forensic investigators peel them back one by one.
+
