@@ -95,3 +95,13 @@
 - Scanned my home router and ran a ping sweep to find all devices on my network.
 - **Lesson:** Hackers hide files inside compressed layers. Forensic investigators peel them back one by one.
 
+
+## Day 13 — September 3, 2026
+- Completed Bandit Level 13 using an SSH private key to log in as bandit14.
+- Learned that cloud servers use private key files instead of passwords for SSH.
+- Created Repo #2: `network-scanner-python` for Python security tools.
+- Wrote my first Python script `port_scanner.py` using the `socket` library.
+- Learned `socket.connect_ex()` returns 0 if a port is open.
+- Scanned localhost ports 20–80 and identified open services.
+- **Lesson:** Python + networking = the foundation of security automation tools.
+
