@@ -160,3 +160,20 @@ ip route = show your router/gateway address
 
 
 Bandit Level 12 --> 13 password: qQYQiHOBPR8zR61qxYqX45quvihF2uzk
+
+
+
+
+ === Day 13 ===
+
+ssh -i keyfile user@host = login with private key ( no password)
+-i = identify file (private key)
+localhost = this same computer
+socket = Python library for network connections
+socket.socket() = create a network connection
+connect_ex((ip, port)) = try to connect to the port
+result == 0 = port is OPEN
+python3 script.py = run a python script 
+
+
+Bandit Level 13 --> 14 password: aaWecNkG4FhxJQxz07uiwzVP6bJiYS65
