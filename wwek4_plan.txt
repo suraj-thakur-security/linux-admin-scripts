@@ -1,0 +1,27 @@
+
+ WEEk 4 PLAN - September 7 - 13, 2026
+
+
+TARGETS: 
+[ ] Bandit Level 15, 16, 17 
+[ ] Upgrade port_scanner.py: add user input for target IP and port range
+[ ] Python: write a simple log parser (read auth.;log count failed logins)
+[ ] Wireshark: capture and analyze one DNS query in detail 
+[ ] Github: 100+ total commits by Sunday 
+[ ] LOG.md: zero missing days 
+
+DAILY BLOCKS:
+Monday(Day 15): Bandit 15 + upgrade port scanner 
+Tuesday(Day 16): Bandit 16 + log parser script start 
+Wednesday(Day 17): Bandit 17 + log parser finish 
+Thursday(Day 18): Wireshark deep dive + college assingnment integration 
+Friday(Day 19): Week 4 review + plan Week 5
+Saturday(Day 20): Catch up \ polish 
+Sunday(Day 21): Rest or light review 
+
+RULES:
+- No new tools without asking me first 
+- Every day: 1 GitHub commit minimum 
+- Every day: LOG.md entry before closing laptop 
+- College assignments take priority if due within 3 days 
+

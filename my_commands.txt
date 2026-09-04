@@ -177,3 +177,16 @@ python3 script.py = run a python script
 
 
 Bandit Level 13 --> 14 password: aaWecNkG4FhxJQxz07uiwzVP6bJiYS65
+
+
+
+ === Day 14 ===
+
+echo "text" | nc host port = send text to a network port
+nc localhost 30000 = connect to port 30000 on this machine
+netcat = tool for talking directly to network ports
+Week 3 review = verify all scripts, repos, logs, and commits
+Week 4 review = Bandit 15 - 17 + upgrade scanner + log parser + Wireshark deep dive
+
+
+Bandit Level 14 --> 15 password: pbLYuZtTg4MgaqfJx8jbA9gKKGqM68A7
