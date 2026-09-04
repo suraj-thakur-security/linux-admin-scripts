@@ -105,3 +105,12 @@
 - Scanned localhost ports 20–80 and identified open services.
 - **Lesson:** Python + networking = the foundation of security automation tools.
 
+
+## Day 14 — September 4, 2026
+- Completed Bandit Level 14 using `echo "password" | nc localhost 30000` to send a password to a network port.
+- Learned `nc` (netcat) is a tool that talks directly to network ports to send and receive data.
+- Reviewed all scripts from Week 3: verified `system_health.sh`, `port_scanner.py`, and all repos.
+- Checked LOG.md for missing entries and counted total GitHub commits.
+- Created Week 4 plan with targets: Bandit 15-17, upgraded port scanner, log parser, Wireshark deep dive.
+- **Lesson:** Review is not wasted time. It prevents the "I forgot everything" panic.
+
