@@ -114,3 +114,9 @@
 - Created Week 4 plan with targets: Bandit 15-17, upgraded port scanner, log parser, Wireshark deep dive.
 - **Lesson:** Review is not wasted time. It prevents the "I forgot everything" panic.
 
+## Day 15 — September 8, 2026
+- Mastered mechanics of SSL/TLS cryptographic handshakes using openssl s_client to solve Bandit Level 15.
+- Upgraded Python network scanner from static hardcoded values to dynamic operator inputs using input().
+- Implimented strict type casting (int()) to bridge gap between user submitted text strings and operating system socket integer requirements.
+- Integrated Python time module and try/except exception handlers for robust execution profilling and error resilience.
+
