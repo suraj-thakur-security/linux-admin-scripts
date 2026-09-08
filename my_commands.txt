@@ -190,3 +190,17 @@ Week 4 review = Bandit 15 - 17 + upgrade scanner + log parser + Wireshark deep d
 
 
 Bandit Level 14 --> 15 password: pbLYuZtTg4MgaqfJx8jbA9gKKGqM68A7
+
+
+
+
+ === DAY 15 ===
+
+openssl s_client -connect host:port = Open an encrypted TLS tunnel to a server socket
+-ign_eof = Prevents openssl from terminating the connection stream prematurely
+input("prompt") = Captures stdin text strings from the operator terminal
+int(string) = Explicitly casts a string data type into a numerical integer
+time.time() = Queries OS kernel epoch clock for micro-performance profiling
+try / except = Runtime exception safety wrappers to prevent application crashes
+
+Bandit Level 15 --> 16 password: kS0Hf0u5HiXFwKMKFqXvPdOTNGGa0X8V
