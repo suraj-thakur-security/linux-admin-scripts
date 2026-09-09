@@ -204,3 +204,13 @@ time.time() = Queries OS kernel epoch clock for micro-performance profiling
 try / except = Runtime exception safety wrappers to prevent application crashes
 
 Bandit Level 15 --> 16 password: kS0Hf0u5HiXFwKMKFqXvPdOTNGGa0X8V
+
+
+ === DAY 16 ===
+
+nmap -sV -p [range] localhost = Scan port range and detect running services.
+chmod 600 [file] = Lock down RSA private key permissions so SSH accepts it.
+for port in range(start, end): = Python loop (the conveyor belt).
+open_ports.append(port) = Add an item to a Python list.
+
+Bandit Level 16 --> 17 password: pWXMAZoxGC8JmDMfmT5MGEsobMM3vnj2
