@@ -120,3 +120,11 @@
 - Implimented strict type casting (int()) to bridge gap between user submitted text strings and operating system socket integer requirements.
 - Integrated Python time module and try/except exception handlers for robust execution profilling and error resilience.
 
+
+## Day 16 - September 9, 2026
+- Today, I used nmap to scan a range of ports and discover active SSL services.
+- I learned that an RSA Private Key requires strict file permissions using chmod 600.
+- If permissions are too open, the SSH daemon will reject the connection to protect the server.
+- I upgraded my Python scanner using a for loop to automate port enumeration.
+- I implemented an array list to collect and summarize the open ports at the end of the scan.
+
