@@ -139,7 +139,7 @@
 ### Key Execution Steps 
 1. Initialized TCP listener on port 4444: `nc -lvnp 4444`.
 2. Developed `connext.py` using `socket.socket(socket.AF_INET, socket.SOCK_STREAM`.
-3. Resolved `TypeError`: Converted `target_port` from dtring `"4444"` to integer `4444`.
+3. Resolved `TypeError`: Converted `target_port` from string `"4444"` to integer `4444`.
 4. Verified data payload transmission (`Hello from Python!\n`) to local listener.
 
 ### Concepts Mastered
