@@ -13,7 +13,7 @@ I am learning Linux fundamentals to prepare for AWS cloud security work. These s
 |  script  |  What It Does  |  Status  |
 |---|---|---|
 | `create_users.sh` | Bulk user creation with groups | ✅ Complete |
-| `system_health.sh` | Disk, memory, CPU monitoring | 🚧 In Progress |
+| `system_health.sh` | Disk, memory, CPU monitoring | ✅ Complete |
 | `log_parser.sh` | Parse auth logs for failed logins | 🚧 In Progress |
 
 ## Environment 
