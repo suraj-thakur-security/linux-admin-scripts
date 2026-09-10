@@ -128,3 +128,24 @@
 - I upgraded my Python scanner using a for loop to automate port enumeration.
 - I implemented an array list to collect and summarize the open ports at the end of the scan.
 
+
+## Day 17 - September 10, 2026 
+
+### Objectives
+- Established manual TCP client-server connecting using Netcat (`nc`)
+- Programmatically connect to a local port using Python `socket`.
+- Debug runtime `TypeError` and `ConnectionRefusedError` exceptions.
+
+### Key Execution Steps 
+1. Initialized TCP listener on port 4444: `nc -lvnp 4444`.
+2. Developed `connext.py` using `socket.socket(socket.AF_INET, socket.SOCK_STREAM`.
+3. Resolved `TypeError`: Converted `target_port` from dtring `"4444"` to integer `4444`.
+4. Verified data payload transmission (`Hello from Python!\n`) to local listener.
+
+### Concepts Mastered
+- difference between string representations and integer data type in network programming.
+- Identification of `ConnectionRefusedError` (closed socket vs unreached IP).
+- Raw byte payload encoding (`b". . ."`).
+
+
+
