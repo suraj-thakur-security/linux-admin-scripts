@@ -148,4 +148,10 @@
 - Raw byte payload encoding (`b". . ."`).
 
 
+## Day 18 - September 11, 2026
+- **Bandit 17 -> 18:** Leveraged `diff passwords.old passwords.new` to isolate the updated credential line between two system configuration files.
+- **Python Multi-Port Scanner:** Refactored `connect.py` with a `for` loop, 0.5s connection timeouts, and `socket.connect_ex()` to audit ports 1–100 without   thread hanging.
+- **Security Impact:** Automated port scanning allows systems engineers to discover unauthorized listening services across network assets, shrinking the attack surface before malicious actors can exploit open ports
+
+
 
