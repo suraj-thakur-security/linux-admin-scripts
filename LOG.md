@@ -63,7 +63,7 @@
 - Completed Bandit level 9 using `strings data.txt | grep "=="` to find a password hidden in the binary garbage.
 - Learned `strings` extracts human -readable text from any file, even if it is mostly machine code.
 - Setup my first cron job using `crontab -e` to run `system_health.sh` automatically.
-- Tested with `* * * * *` (every minute) to see proof in `helth.log` then changed to `0 9 * * *` (daily at 9 AM).
+- Tested with `* * * * *` (every minute) to see proof in `health.log` then changed to `0 9 * * *` (daily at 9 AM).
 - **Lesson:** Automation means the computer works while you sleep. A sysadmin schedules tasks, he does not run them manually everyday.
 
 
@@ -117,7 +117,7 @@
 ## Day 15 — September 8, 2026
 - Mastered mechanics of SSL/TLS cryptographic handshakes using openssl s_client to solve Bandit Level 15.
 - Upgraded Python network scanner from static hardcoded values to dynamic operator inputs using input().
-- Implimented strict type casting (int()) to bridge gap between user submitted text strings and operating system socket integer requirements.
+- Implemented strict type casting (int()) to bridge gap between user submitted text strings and operating system socket integer requirements.
 - Integrated Python time module and try/except exception handlers for robust execution profilling and error resilience.
 
 
@@ -138,7 +138,7 @@
 
 ### Key Execution Steps 
 1. Initialized TCP listener on port 4444: `nc -lvnp 4444`.
-2. Developed `connext.py` using `socket.socket(socket.AF_INET, socket.SOCK_STREAM`.
+2. Developed `connect.py` using `socket.socket(socket.AF_INET, socket.SOCK_STREAM`.
 3. Resolved `TypeError`: Converted `target_port` from string `"4444"` to integer `4444`.
 4. Verified data payload transmission (`Hello from Python!\n`) to local listener.
 
