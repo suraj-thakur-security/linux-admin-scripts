@@ -1,37 +1,48 @@
- See [LOG.md](LOG.md) for my daily learning journal.
+# Linux & Security Automation Scripts
 
+A collection of Bash shell scripts and Python networking utilities for system administration, auditing, and threat monitoring. Built as proof-of-work on my path to becoming a Cloud Security Systems Engineer.
 
-# Linux Admin Scripts 
+See [LOG.md](LOG.md) for my detailed daily engineering journal.
 
-A collection of bash scripts for linux system administration and security tasks. Built as part of my journey to become a Cloud Security Engineer. 
+---
 
 ## Why This Repo?
-I am learning Linux fundamentals to prepare for AWS cloud security work. These scripts automate basic admin tasks and demonstrate command-line proficiency 
+Mastering core Linux fundamentals and networking logic in the terminal is essential for securing cloud infrastructure (AWS/GCP). These scripts demonstrate automated administration, log parsing, and network auditing capabilities.
 
-## Scripts 
+---
 
-|  script  |  What It Does  |  Status  |
-|---|---|---|
-| `create_users.sh` | Bulk user creation with groups | ✅ Complete |
-| `system_health.sh` | Disk, memory, CPU monitoring | ✅ Complete |
-| `log_parser.sh` | Parse auth logs for failed logins | 🚧 In Progress |
+## Tooling & Automation Index
 
-## Environment 
-- OS: Kali Linux ( VirtualBox VM )
-- Shell: Bash
-- Tested on: Debian-based systems
+| Script / Tool | Functionality | Security / Admin Impact | Status |
+| :--- | :--- | :--- | :--- |
+| `create_users.sh` | Bulk user provisioning with groups | Automates consistent IAM access controls | ✅ Complete |
+| `system_health.sh` | Resource monitoring & alerts | Prevents service downtime via threshold checks | ✅ Complete |
+| `connect.py` | Multi-port TCP socket scanner | Identifies exposed network attack surfaces | ✅ Complete |
+| `log_parser.sh` | Parses `/var/log/auth.log` | Detects brute-force authentication attempts | 🚧 In Progress |
 
-  ## How to Run
-   ```bash
-  chmod +x script_name.sh
-  ./script_name.sh
-  ```  
+---
 
- ## Author
- 
-  Suraj Kumar Thakur
-  Bsc(Hons)IT, Techspire College
-  Nepal | Building global remote skills
+## Environment & Prerequisites
+- **OS:** Kali Linux (VirtualBox VM)
+- **Shell / Language:** Bash / Python 3
+- **Dependencies:** Standard POSIX tools (`grep`, `awk`, `cron`, `socket`)
+
+---
+
+## How to Run
+
+```bash
+# Make Bash scripts executable
+chmod +x script_name.sh
+./script_name.sh
+
+# Run Python utilities
+python3 connect.py
+
+Author
+Suraj Kumar Thakur
+B.Sc. (Hons) IT | Techspire College
+Aspiring Cloud Security Systems Engineer | Nepal
 
 License
 
