@@ -236,3 +236,15 @@ Bandit Level 16 --> 17 password: pWXMAZoxGC8JmDMfmT5MGEsobMM3vnj2
 - Difference between string representations and integer data types in network programming.
 - Identification of `ConnectionRefusedError` (closed socket vs unreachable IP).
 - Raw byte payload encoding (`b"..."`).
+
+
+
+ === Day 18 === 
+
+diff file1 file2         : Compare two files line-by-line (used in Bandit 17)
+nc -lvnp <port>          : Start netcat listener on a port
+sudo nc -lvnp <port>     : Start netcat listener on privileged ports (1-1023)
+python3 connect.py       : Execute local Python socket scanner
+
+
+Bandit Level 17 --> 18 password: OQxXZjELndr90zuhOTDYBEomI0SZITXI
