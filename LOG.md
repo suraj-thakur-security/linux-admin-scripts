@@ -154,4 +154,9 @@
 - **Security Impact:** Automated port scanning allows systems engineers to discover unauthorized listening services across network assets, shrinking the attack surface before malicious actors can exploit open ports
 
 
+## Day 19 - September 13, 2026
+### Focus: Pre- Career Fest Sprint Day 1 - IPv4 Subnetting & Layer 3/4 Protocol Analysis
+- **Concepts:** CIDR calculations, subnet boundaries, Layer 3 (IP/ICMP) routing vs Layer 4 (TCP/UDP) port transport, TCP 3-Way Handshake (SYN, SYN-ACK, ACK).
+- **Hands-on Execution:** Calculated `/27` subnet bounds, inspected listening sockets using `ss -tulpn`, captured live ICMP traffic using `tcpdump`.
+- **Security Takeaway:** Unused open ports act as entry vectors. Monitoring Layer 4 socket states (`ESTABLISHED`, `LISTEN`) detects unauthorized persistence or C2 channels.
 
