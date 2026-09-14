@@ -160,3 +160,9 @@
 - **Hands-on Execution:** Calculated `/27` subnet bounds, inspected listening sockets using `ss -tulpn`, captured live ICMP traffic using `tcpdump`.
 - **Security Takeaway:** Unused open ports act as entry vectors. Monitoring Layer 4 socket states (`ESTABLISHED`, `LISTEN`) detects unauthorized persistence or C2 channels.
 
+
+## [Day 20] - 2026-09-14 
+### Focus: Pre-Fest Sprint Day 2 - DNS Architecture, Resolution Mechanics & Security Vectors
+- **Concepts:** The 4-step recursive resolution flow (Stub -> Root -> TLD -> Authoritative), UDP vs. TCP port 53 usage, DNS exfiltration and C2 tunneling mechanics.
+- **Hands-on Execution:** Inspected DNS resolution paths using `dig +trace`, analyzed record types (`A`, `TXT`, `NS`), and captured live UDP 53 queries.
+- **Security Takeaway:** DNS is a primary covert transport vector. Because UDP 53 outbound is rarely blocked by firewalls, security teams must monitor for high-entropy subdomains and abnormal TXT record requests.
